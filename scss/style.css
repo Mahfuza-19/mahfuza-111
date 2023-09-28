@@ -424,38 +424,6 @@ main .container {
     background: #1f1cd3;
     text-decoration: none;
   }
-  .navBottom .forText {
-    padding: 4rem 2.6rem;
-    background: #fff;
-    width: 57rem;
-    height: 43.2rem;
-    z-index: 2;
-  }
-  .navBottom .forText h1 {
-    color: #5956e9;
-    font-size: 5.2rem;
-    font-weight: 700;
-    line-height: 130%;
-    text-transform: uppercase;
-  }
-  .navBottom .forText h5 {
-    color: #6c6c72;
-    padding-right: 3.5rem;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-    margin: 1.8rem 0 5.2rem;
-  }
-  .navBottom .forText p {
-    color: #232233;
-    font-size: 4rem;
-    font-weight: 600;
-    line-height: 3.75rem;
-    text-transform: uppercase;
-  }
-  .navBottom .forText .apps {
-    margin-top: 0.5rem;
-  }
   main .container {
     display: flex;
     text-align: center;
@@ -467,7 +435,7 @@ main .container {
     z-index: 1;
   }
   .textPart .forText {
-    padding: 7rem 3rem 7rem 3rem;
+    padding: 7rem 3rem 10rem 3rem;
     width: 90%;
     height: 400px;
     z-index: 2;
@@ -475,10 +443,13 @@ main .container {
     text-align: left;
   }
   .textPart .forText h1 {
-    font-size: 8rem;
+    font-size: 30px;
   }
   .textPart .forText h5 {
-    font-size: 2.6rem;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
     margin-bottom: 50px;
   }
   .textPart .forText p {
@@ -517,19 +488,14 @@ main .container {
 }
 @media (max-width: 450px) {
   html {
-    font-size: 33%;
+    font-size: 39%;
   }
 }
-@media (max-width: 450px) {
-  html {
-    font-size: 30%;
-  }
-  .navBottom {
-    height: 35px;
-  }
-  .navBottom .logo {
-    max-width: 80px;
-    height: 50px;
-    margin: 0 auto;
-  }
+.navBottom {
+  height: 35px;
+}
+.navBottom .logo {
+  max-width: 80px;
+  height: 50px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
