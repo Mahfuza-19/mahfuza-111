@@ -193,7 +193,7 @@ main {
 }
 .modal {
   zoom: 0.9;
-  width: 71rem !important;
+  width: 90% !important;
   position: fixed;
   z-index: 9;
   top: 50%;
@@ -220,6 +220,7 @@ main {
     font-weight: 700;
     line-height: 123.6%;
     text-transform: capitalize;
+    text-align: center;
   }
   a:nth-child(3) {
     padding: 2.2rem 2.5rem;
