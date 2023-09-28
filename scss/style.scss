@@ -192,18 +192,20 @@ main {
   z-index: 5;
 }
 .modal {
+  zoom: 0.9;
+  width: 71rem !important;
   position: fixed;
   z-index: 9;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 99.5rem;
   height: 59.7rem;
   background: linear-gradient(90deg, #1d98ff 0%, #2961ff 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 20px 30px;
   .i {
     font-size: 3.5rem;
     position: absolute;
