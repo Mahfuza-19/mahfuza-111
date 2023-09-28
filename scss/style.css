@@ -463,6 +463,14 @@ main .container {
   .imgPart img {
     width: 100%;
   }
+  .navBottom {
+    height: 40px;
+  }
+  .navBottom .logo {
+    max-width: 100px;
+    height: 60px;
+    right: 55px;
+  }
 }
 @media (max-width: 480px) {
   html {
@@ -472,6 +480,19 @@ main .container {
 @media (max-width: 450px) {
   html {
     font-size: 33%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 30%;
+  }
+  .navBottom {
+    height: 35px;
+  }
+  .navBottom .logo {
+    max-width: 80px;
+    height: 50px;
+    right: 45px;
   }
 }
 
